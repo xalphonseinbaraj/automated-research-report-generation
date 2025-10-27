@@ -27,3 +27,6 @@ app.add_middleware(
 
 # Register Routes
 app.include_router(report_routes.router)
+
+
+##uvicorn research_and_analyst.api.main:app --reload
