@@ -8,8 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
-generated_report/
-static/
+
 .env
-.env.copy
-uv.lock
+logs
+archive
