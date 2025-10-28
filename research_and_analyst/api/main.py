@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
+#from utils.config_loader import load_config
+
 import os
 from research_and_analyst.api.routes import report_routes
 

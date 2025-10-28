@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=68"]         # PEP 660 editable support ke liye naya setuptools
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "automated-research-report-generation"
 version = "0.1.0"
@@ -23,6 +27,13 @@ dependencies = [
     "sqlalchemy==2.0.43",
     "structlog==25.4.0",
     "tavily-python==0.7.12",
+    "utils>=1.0.2",
     "uvicorn==0.38.0",
     "wikipedia==1.4.0",
 ]
+# Optional: authors, license
+authors = [{ name = "Sunny Savita" }]
+license = { text = "Proprietary" }
+
+[tool.setuptools.packages.find]
+where = ["research_and_analyst"]

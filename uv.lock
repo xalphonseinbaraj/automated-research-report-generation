@@ -167,6 +167,7 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "structlog" },
     { name = "tavily-python" },
+    { name = "utils" },
     { name = "uvicorn" },
     { name = "wikipedia" },
 ]
@@ -191,6 +192,7 @@ requires-dist = [
     { name = "sqlalchemy", specifier = "==2.0.43" },
     { name = "structlog", specifier = "==25.4.0" },
     { name = "tavily-python", specifier = "==0.7.12" },
+    { name = "utils", specifier = ">=1.0.2" },
     { name = "uvicorn", specifier = "==0.38.0" },
     { name = "wikipedia", specifier = "==1.4.0" },
 ]
@@ -1944,6 +1946,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl", hash = "sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc", size = 129795, upload-time = "2025-06-18T14:07:40.39Z" },
 ]
+
+[[package]]
+name = "utils"
+version = "1.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ad/1f/c196d21c2df061923154aecf24cab049a114394956e90c9bfbfdd398e27a/utils-1.0.2.tar.gz", hash = "sha256:f4d5157e27e9d434006b5b52a1ec951a34e53e7ecaa145d43a153ec452eb5d9e", size = 13203, upload-time = "2024-01-06T07:11:25.75Z" }
 
 [[package]]
 name = "uvicorn"
